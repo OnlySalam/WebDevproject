@@ -17,11 +17,11 @@ pipeline{
                         echo "welcome to the production. Added Jenkins"
 
 
-                        sudo apt-get install ngnix -y
+                        sudo apt-get install nginx -y
 
                         sudo systemctl enable nginx
 
-                        sudo systemctl start ngnix 
+                        sudo systemctl start nginx
                         
 
                         sudo apt update -y
@@ -30,7 +30,7 @@ pipeline{
 
                         mkdir html
 
-                        sudo rm -rf html
+                        udo rm -rf html
 
                         git clone https://github.com/OnlySalam/WebDevproject.git html
 
