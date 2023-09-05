@@ -30,7 +30,7 @@ pipeline{
 
                         mkdir html
 
-                        udo rm -rf html
+                        sudo rm -rf html
 
                         git clone https://github.com/OnlySalam/WebDevproject.git html
 
