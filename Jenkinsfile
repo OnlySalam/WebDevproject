@@ -28,9 +28,9 @@ pipeline{
 
                         cd /var/www
 
-                        mkdir html
-
                         sudo rm -rf html
+
+                        mkdir html
 
                         git clone https://github.com/OnlySalam/WebDevproject.git html
 
