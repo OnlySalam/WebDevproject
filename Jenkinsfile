@@ -32,7 +32,7 @@ pipeline{
 
                         sudo mkdir html
 
-                        git clone https://github.com/OnlySalam/WebDevproject.git html
+                        sudo git clone https://github.com/OnlySalam/WebDevproject.git html
 
                         
 
